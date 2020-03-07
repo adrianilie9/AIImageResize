@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03A480E2B47D278FAB0267B2 /* AIImageResize.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AIImageResize.podspec; path = ../AIImageResize.podspec; sourceTree = "<group>"; };
-		045764D90C9C4458281D0FED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		03A480E2B47D278FAB0267B2 /* AIImageResize.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AIImageResize.podspec; path = ../AIImageResize.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		045764D90C9C4458281D0FED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		064154D5EEC78646EB8BC568 /* Pods-AIImageResize_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIImageResize_Tests.release.xcconfig"; path = "Target Support Files/Pods-AIImageResize_Tests/Pods-AIImageResize_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		18482CB4C6892434DD69A290 /* Pods-AIImageResize_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIImageResize_Example.release.xcconfig"; path = "Target Support Files/Pods-AIImageResize_Example/Pods-AIImageResize_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AIImageResize_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIImageResize_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6AAC111149D5A7E566468A4F /* Pods-AIImageResize_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIImageResize_Example.debug.xcconfig"; path = "Target Support Files/Pods-AIImageResize_Example/Pods-AIImageResize_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		923A2465361D8830842FCFB7 /* Pods_AIImageResize_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIImageResize_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A42DB80C77DBE3B9D7A902EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A42DB80C77DBE3B9D7A902EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BBB83E99ED1BB2EC87E02DBD /* Pods_AIImageResize_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIImageResize_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4642B77B9E1B63D39B21F69 /* Pods-AIImageResize_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIImageResize_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AIImageResize_Tests/Pods-AIImageResize_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				E4642B77B9E1B63D39B21F69 /* Pods-AIImageResize_Tests.debug.xcconfig */,
 				064154D5EEC78646EB8BC568 /* Pods-AIImageResize_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

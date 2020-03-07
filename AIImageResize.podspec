@@ -1,42 +1,19 @@
-#
-# Be sure to run `pod lib lint AIImageResize.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'AIImageResize'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AIImageResize.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'Simple iOS image resize.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+AIImageResize is a category for UIImage that adds the capability to resize by width / height and perform image cropping.
+It is especially useful when dealing with images that are downloaded at runtime.
                        DESC
-
-  s.homepage         = 'https://github.com/Adrian Ilie/AIImageResize'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/adrianilie9/AIImageResize'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Adrian Ilie' => 'adrian.ilie.x64@gmail.com' }
-  s.source           = { :git => 'https://github.com/Adrian Ilie/AIImageResize.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'AIImageResize/Classes/**/*'
+  s.social_media_url = 'https://twitter.com/iadi64'
   
-  # s.resource_bundles = {
-  #   'AIImageResize' => ['AIImageResize/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source                  = { :git => 'https://github.com/adrianilie9/AIImageResize.git', :tag => 'V.0.1.0' }
+  s.ios.deployment_target   = '10.0'
+  s.swift_versions          = '5.0'
+  s.frameworks              = 'UIKit'
+  s.source_files            = 'AIImageResize/Classes/**/*'
 end
