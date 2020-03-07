@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AIImageResize_Example' do
+  pod 'AIImageResize', :path => '../'
+
+  target 'AIImageResize_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
